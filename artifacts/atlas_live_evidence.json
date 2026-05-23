@@ -1,0 +1,42 @@
+{
+  "collection_counts": {
+    "app_events": 640,
+    "complaints": 320,
+    "customer_cases": 950,
+    "customers": 650,
+    "deliveries": 950,
+    "drivers": 170,
+    "hubs": 8,
+    "incidents": 280,
+    "orders": 1250,
+    "vehicles": 120
+  },
+  "live_case_sample": [
+    {
+      "order_id": "O01107",
+      "delivery_status": "Delayed",
+      "complaint_count": 1,
+      "route_overrides": 2
+    },
+    {
+      "order_id": "O00452",
+      "delivery_status": "Failed",
+      "complaint_count": 1,
+      "route_overrides": 1
+    }
+  ],
+  "indexed_explain": {
+    "winning_stage": "FETCH",
+    "n_returned": 2,
+    "docs_examined": 44,
+    "keys_examined": 45,
+    "execution_time_ms": 0
+  },
+  "natural_explain": {
+    "winning_stage": "COLLSCAN",
+    "n_returned": 2,
+    "docs_examined": 950,
+    "keys_examined": 0,
+    "execution_time_ms": 0
+  }
+}
