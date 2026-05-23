@@ -1,0 +1,8 @@
+zone_clean,deliveries,ontime_pct,delayed_pct,failed_pct,avg_route_overrides,avg_completion_hours
+Central,243,60.5,19.3,20.2,1.03,10.33
+Airport,104,59.6,26.0,14.4,0.91,9.38
+West,127,65.4,22.0,12.6,0.87,10.33
+North,136,68.4,19.1,12.5,1.03,9.38
+Riverside,115,66.1,21.7,12.2,1.05,9.92
+South,106,66.0,24.5,9.4,0.92,8.87
+East,119,71.4,19.3,9.2,0.89,7.66

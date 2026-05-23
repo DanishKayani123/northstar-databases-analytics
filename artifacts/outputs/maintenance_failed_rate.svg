@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="540" viewBox="0 0 900 540">
+<rect width="100%" height="100%" fill="#f7f4ee"/>
+<text x="190" y="40" font-size="28" font-family="Helvetica, Arial, sans-serif" fill="#1f2937" font-weight="700">Maintenance Status vs Failure Rate</text>
+<text x="190" y="64" font-size="14" font-family="Helvetica, Arial, sans-serif" fill="#6b7280">Vehicles already in repair are strongly over-represented in failed deliveries</text>
+<line x1="190.0" y1="90" x2="190.0" y2="470" stroke="#d1d5db" stroke-width="1"/>
+<text x="190.0" y="494" text-anchor="middle" font-size="12" font-family="Helvetica, Arial, sans-serif" fill="#6b7280">0%</text>
+<line x1="316.0" y1="90" x2="316.0" y2="470" stroke="#d1d5db" stroke-width="1"/>
+<text x="316.0" y="494" text-anchor="middle" font-size="12" font-family="Helvetica, Arial, sans-serif" fill="#6b7280">6%</text>
+<line x1="442.0" y1="90" x2="442.0" y2="470" stroke="#d1d5db" stroke-width="1"/>
+<text x="442.0" y="494" text-anchor="middle" font-size="12" font-family="Helvetica, Arial, sans-serif" fill="#6b7280">12%</text>
+<line x1="568.0" y1="90" x2="568.0" y2="470" stroke="#d1d5db" stroke-width="1"/>
+<text x="568.0" y="494" text-anchor="middle" font-size="12" font-family="Helvetica, Arial, sans-serif" fill="#6b7280">18%</text>
+<line x1="694.0" y1="90" x2="694.0" y2="470" stroke="#d1d5db" stroke-width="1"/>
+<text x="694.0" y="494" text-anchor="middle" font-size="12" font-family="Helvetica, Arial, sans-serif" fill="#6b7280">24%</text>
+<line x1="820.0" y1="90" x2="820.0" y2="470" stroke="#d1d5db" stroke-width="1"/>
+<text x="820.0" y="494" text-anchor="middle" font-size="12" font-family="Helvetica, Arial, sans-serif" fill="#6b7280">30%</text>
+<text x="178" y="113" text-anchor="end" font-size="14" font-family="Helvetica, Arial, sans-serif" fill="#374151">InRepair</text>
+<rect x="190" y="90" width="630.0" height="34" rx="6" fill="#d97706"/>
+<text x="830.0" y="113" font-size="14" font-family="Helvetica, Arial, sans-serif" fill="#111827" font-weight="700">30.3%</text>
+<text x="178" y="161" text-anchor="end" font-size="14" font-family="Helvetica, Arial, sans-serif" fill="#374151">Active</text>
+<rect x="190" y="138" width="172.6" height="34" rx="6" fill="#d97706"/>
+<text x="372.6" y="161" font-size="14" font-family="Helvetica, Arial, sans-serif" fill="#111827" font-weight="700">8.3%</text>
+<text x="178" y="209" text-anchor="end" font-size="14" font-family="Helvetica, Arial, sans-serif" fill="#374151">Scheduled</text>
+<rect x="190" y="186" width="135.1" height="34" rx="6" fill="#d97706"/>
+<text x="335.1" y="209" font-size="14" font-family="Helvetica, Arial, sans-serif" fill="#111827" font-weight="700">6.5%</text>
+</svg>

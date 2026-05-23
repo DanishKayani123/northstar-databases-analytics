@@ -1,0 +1,12 @@
+.envs/
+.ipython/
+.jupyter_config/
+.jupyter_data/
+.local/
+.mplconfig/
+bin/
+info/
+lib/
+micromamba.tar.bz2
+github_home.png
+extract_pdf.swift

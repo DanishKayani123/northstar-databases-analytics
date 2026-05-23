@@ -1,0 +1,9 @@
+hub_name,zone_clean,deliveries,non_ontime_pct,failed_pct,avg_route_overrides,avg_completion_hours,avg_direct_cost
+Central Core,Central,115,41.7,20.0,0.95,10.9,13.69
+Airport Hub,Airport,104,40.4,14.4,0.91,9.38,13.32
+Midtown Relay,Central,128,37.5,20.3,1.11,9.82,11.71
+West Gate,West,127,34.6,12.6,0.87,10.33,13.17
+South Link,South,106,34.0,9.4,0.92,8.87,12.57
+Riverside Hub,Riverside,115,33.9,12.2,1.05,9.92,12.92
+North Exchange,North,136,31.6,12.5,1.03,9.38,12.76
+East Dock,East,119,28.6,9.2,0.89,7.66,12.74

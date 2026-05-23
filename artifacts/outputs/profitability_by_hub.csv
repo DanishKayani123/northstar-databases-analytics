@@ -1,0 +1,9 @@
+hub_name,deliveries,avg_order_value,avg_direct_cost,avg_compensation,avg_net_after_comp,non_ontime_pct
+Airport Hub,106,85.85,13.29,4.22,68.34,39.6
+Riverside Hub,118,89.31,12.95,5.67,70.69,33.1
+Midtown Relay,132,88.37,11.74,5.63,71.0,37.9
+North Exchange,142,91.05,12.8,3.79,74.46,31.0
+West Gate,129,93.05,13.17,4.34,75.54,34.9
+South Link,108,90.27,12.57,2.16,75.55,34.3
+East Dock,121,98.11,12.69,4.61,80.82,28.1
+Central Core,117,100.54,13.64,5.92,80.98,41.0

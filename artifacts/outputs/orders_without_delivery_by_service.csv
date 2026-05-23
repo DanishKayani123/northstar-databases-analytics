@@ -1,0 +1,6 @@
+service_type,missing_orders,avg_order_value,avg_promised_window_hours
+Passenger,79,92.38,7.85
+Parcel,78,80.13,9.67
+Retail,73,99.85,7.08
+Business,39,75.42,7.9
+Medical,31,89.26,5.74

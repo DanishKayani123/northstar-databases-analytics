@@ -1,0 +1,6 @@
+metric,value
+customers_preferred_channel_missing,13
+orders_booking_channel_missing,25
+deliveries_completed_timestamp_missing,19
+deliveries_rating_missing,14
+orders_without_delivery_record,300
