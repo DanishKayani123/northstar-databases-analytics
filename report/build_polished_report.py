@@ -138,7 +138,7 @@ def add_cover_page(doc: Document) -> None:
         "Assessment Weighting: 80%",
         "Academic Year: 2025-2026",
         "Case Study: NorthStar Urban Mobility and Logistics",
-        "GitHub Repository: To be inserted after final repository upload",
+        "GitHub Repository: https://github.com/DanishKayani123/northstar-databases-analytics",
         "Submission Route: Blackboard",
     ]
     for line in module_block:
@@ -218,6 +218,7 @@ def add_front_matter(doc: Document) -> None:
         "Figure 15. Proposed MongoDB customer case document.",
         "Figure 16. MongoDB index design evidence.",
         "Figure 17. MongoDB aggregation output for delayed or failed open cases.",
+        "Figure 18. Live GitHub repository containing the submitted notebooks, report assets, scripts, and dataset.",
     ]
     for item in figures:
         p = doc.add_paragraph(style="Normal")
@@ -723,6 +724,7 @@ def add_appendices(doc: Document) -> None:
         ("Figure 15", "MongoDB case document", "Illustrates the proposed nested document structure."),
         ("Figure 16", "MongoDB index design", "Shows the index set aligned to real case-investigation queries."),
         ("Figure 17", "MongoDB aggregation output", "Demonstrates delayed or failed open-case triage."),
+        ("Figure 18", "GitHub repository evidence", "Shows the public repository containing the notebooks and supporting coursework files."),
     ]
     table = doc.add_table(rows=1, cols=3)
     table.style = "Table Grid"
@@ -745,9 +747,22 @@ def add_appendices(doc: Document) -> None:
         "Structured analytical outputs: artifacts/outputs/*.csv",
         "Evidence figures used in the report: report/assets/evidence/*.png",
         "Main coursework report deliverable: report/northstar_assignment_report.docx",
+        "GitHub repository: https://github.com/DanishKayani123/northstar-databases-analytics",
     ]
     for item in outputs:
         doc.add_paragraph(item, style="List Bullet")
+
+    doc.add_paragraph()
+    doc.add_paragraph("Appendix C: GitHub Repository Evidence", style="Heading 1")
+    doc.add_paragraph(
+        "The final repository was uploaded to GitHub to provide reproducible evidence of the notebooks, supporting scripts, dataset files, generated outputs, and report assets used in this coursework submission."
+    )
+    add_image(
+        doc,
+        ASSETS_DIR / "github_repo_live.png",
+        6.35,
+        "Figure 18. Live GitHub repository containing the submitted notebooks, report assets, scripts, and dataset.",
+    )
 
 
 def main() -> None:
