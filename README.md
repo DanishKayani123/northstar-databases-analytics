@@ -36,10 +36,3 @@ This workspace now contains a submission-ready draft for the NorthStar Databases
 - `.envs/northstar`
   Local runtime containing Python, Jupyter, and R used to execute the notebooks.
 
-## Before Submission
-
-1. Add your student ID to the report.
-2. Review the `.docx` formatting and adjust headings or page layout if needed.
-3. Push this local Git repository to GitHub once GitHub authentication is available on this machine.
-4. Add the GitHub repository link into the report.
-5. If a live MongoDB Atlas cluster is required, run the notebook again with `MONGODB_URI` set after Atlas authentication is available.
