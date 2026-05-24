@@ -14,6 +14,9 @@ Library/
 mongodb-atlas-cli/
 mongodb-atlas-cli_1.55.0_macos_arm64.zip
 report/~$*.docx
+report/northstar_assignment_report*.docx
+report/northstar_assignment_report.md
+report/assets/northstar_assignment_report*.png
 chrome-headless-profile/
 __pycache__/
 report/__pycache__/
